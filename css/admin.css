@@ -1,0 +1,38 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+/* Layout the page similar to the built-in post edit screen. */
+
+#rrpzl-settings {
+	margin-right: 310px;
+}
+
+#rrpzl-settings-content {
+	width: 100%;
+	float: left;
+}
+
+#rrpzl-settings-sidebar {
+	float: right;
+	margin-right: -310px;
+	width: 290px;
+}
+
+#rrpzl-settings-sidebar .centered {
+	text-align: center;
+}
+
+#rrpzl-settings-sidebar .button-large {
+	font-size: 17px;
+	line-height: 30px;
+	height: 32px;
+}
+
+#rrpzl-settings-sidebar .last-blurb {
+	font-size: 17px;
+}
+
+/* postbox overrides */
+#rrpzl-settings-sidebar .sidebar-container .postbox .inside,
+#rrpzl-settings-sidebar .sidebar-container .postbox .inside ul {
+	margin-bottom: 0;
+}
